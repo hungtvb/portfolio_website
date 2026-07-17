@@ -1,0 +1,16 @@
+assemble:
+    - from: assets
+      into: static
+
+modern-portfolio-custom-element:
+    cssURLs:
+        - style.css
+    friendlyURLMapping: modern-portfolio
+    htmlElementName: modern-portfolio
+    instanceable: false
+    name: Modern Portfolio
+    portletCategoryName: category.client-extensions
+    type: customElement
+    urls:
+        - index.js
+    useESM: false
